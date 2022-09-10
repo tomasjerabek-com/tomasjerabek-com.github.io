@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  tomasjerabek.com:
+    image: tomasjerabek.com:latest
+    container_name: tomasjerabek.com
+    build: .
+    ports:
+      - "8001:80"
+    restart: always
+    environment:
+      - "TZ=Europe/Prague"
+    network_mode: bridge
