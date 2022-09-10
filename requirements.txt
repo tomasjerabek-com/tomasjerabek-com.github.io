@@ -3,7 +3,7 @@ click==7.1.2
 fastapi==0.63.0
 h11==0.12.0
 Jinja2==3.0.3
-MarkupSafe==1.1.1
+MarkupSafe==2.1.1
 pydantic==1.8.1
 starlette==0.13.6
 typing-extensions==3.7.4.3
