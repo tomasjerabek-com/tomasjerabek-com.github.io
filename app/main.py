@@ -16,7 +16,7 @@ import datetime
 app = FastAPI(title='tomasjerabek.com API',
               description='Repo: <a href=https://github.com/tomasjerabek-com/tomasjerabek.com">'
                           'https://github.com/tomasjerabek-com/tomasjerabek.com</a><br>')
-app.mount("/static", StaticFiles(directory="static", html=True), name="static")
+# app.mount("/static", StaticFiles(directory="static", html=True), name="static")
 templates = Jinja2Templates(directory="templates")
 
 
